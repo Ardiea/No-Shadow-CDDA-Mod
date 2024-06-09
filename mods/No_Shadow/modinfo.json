@@ -1,0 +1,18 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "No-Shadow",
+    "name": "No Shadow Mod - Remove the Shadow Boss",
+    "authors": [ "Ardiea" ],
+    "description": "Removes the Shadow boss / event because I don't like it.",
+    "category": "monster_exclude",
+    "dependencies": [ "dda" ],
+    "version": "0.1"
+  },
+  {
+    "type": "MONSTER_BLACKLIST",
+    "monsters": [
+      "mon_lieutenant_shadow"
+    ]
+  }
+]
